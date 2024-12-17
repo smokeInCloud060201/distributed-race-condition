@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: distributed-race-condition
+  datasource:
+    url: jdbc:postgresql://localhost:5434/race
+    password: admin123
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
